@@ -5,6 +5,8 @@ const isProd = process.env.NODE_ENV === 'production'
 module.exports = {
 
   //trailingSlash: true,
+  basePath: '/gelisimatolyesiotizm.com',
+  assetPrefix: '/gelisimatolyesiotizm.com/',  
 
   sassOptions: {
     includePaths: [
