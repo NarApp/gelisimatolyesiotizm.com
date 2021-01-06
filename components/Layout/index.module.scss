@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  flex-flow: column;
+
+  .container{
+    width: 100%;
+    //max-width: 1200px;
+    margin: 0 auto;
+  }
+
+}
+
+
+
+
+.logo{
+  text-align: center;
+  padding: 24px;
+}

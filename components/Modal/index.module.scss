@@ -1,0 +1,11 @@
+.modal {
+  width: fit-content;
+  max-width: 900px;
+
+  :global{
+    .ant-modal-close{
+      background-color: rgb(231, 75, 75);
+      color: white;
+    }
+  }
+}

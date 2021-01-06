@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  flex-flow: column;
+
+
+  border-bottom: 1px dashed lightgray;
+  
+  .container{
+
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;    
+
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+        
+    padding: 24px;
+
+    a{
+      display: block;
+      padding: 12px;
+      
+      /* margin-right: 24px;
+      &:last-child{
+        margin-right: 0;
+      } */
+      
+
+      color: darkgray !important;
+    }
+
+    :global{
+      .ant-btn-icon-only{
+        color: darkgray !important;
+      }
+    }
+
+  }
+
+}

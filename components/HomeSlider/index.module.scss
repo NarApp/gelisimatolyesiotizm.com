@@ -1,0 +1,104 @@
+.wrapper {
+  display: flex;
+  flex-flow: column;
+
+  //padding: 24px;
+  
+  /* background: linear-gradient(180deg, #F3F2F2 0%, rgba(255, 255, 255, 0) 100%); */
+
+  /* background-color: #74EBD5;
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%); */
+
+  height: 300px;
+
+  .container{
+    width: 100%;
+    //max-width: 1200px;
+    margin: 0 auto;
+  }
+
+
+  .head{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 24px;
+
+    h2{
+      margin: 0;
+    }
+
+    :global(.anticon){
+      font-size: 12px;
+    }
+  }  
+
+
+
+  /* Slider */
+  :global{
+  .ant-carousel{
+
+    margin: 0px;
+
+    position: relative;
+    z-index: 2;
+    
+    
+
+/*     box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+    border: 5px solid rgba(255, 255, 255, 0.9);
+    border-radius: 5px; */
+
+    
+  }
+  }
+
+
+  /* Item ------------------------------------ */
+  .slideNode{
+    img{
+      width: auto;
+      height: 300px;
+    }
+  }
+
+  .thumbs{
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 12px;
+
+    >button{
+      width: 50px !important;
+      height: 50px !important;
+
+      @media screen and (max-width: 1024px) {
+        width: 35px !important;
+        height: 35px !important;        
+      }
+
+      
+      padding: 0;
+     
+      border: 1px solid lightgray;
+      border-radius: 5px;
+
+      margin-right: 24px; &:last-child { margin-right: 0; }
+    }  
+  }
+}
