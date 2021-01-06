@@ -21,7 +21,7 @@ body {
 .horizontal {
   display: flex;
   flex-flow: row;
-  align-items: stretch !important;
+  align-items: stretch;
   justify-content: center;
 
   padding: 24px;
@@ -29,6 +29,9 @@ body {
   max-width: 960px;
   margin: auto;
 
+  &.top{
+    align-items: start !important;
+  }
 
   > * {
     margin-right: 12px;

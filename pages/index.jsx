@@ -37,7 +37,7 @@ export default () =>
     <div style={{margin:24}}></div> 
 
 
-    <div className="horizontal" style={{alignItems: 'start !important'}}>
+    <div className="horizontal top">
       
       <div style={{ width: '50%'}}>
         <List
