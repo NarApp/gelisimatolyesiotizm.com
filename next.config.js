@@ -4,7 +4,8 @@ const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
 
-  //trailingSlash: true,
+  trailingSlash: true,
+  exportTrailingSlash: true,
 
   //sassOptions: {
   //  includePaths: [
