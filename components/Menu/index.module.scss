@@ -10,30 +10,41 @@
     display: flex;
     flex-flow: row;
     align-items: center;
-    justify-content: space-between;    
+    //justify-content: center;    
 
     width: 100%;
-    max-width: 800px;
+    max-width: 960px;
     margin: auto;
         
-    padding: 24px;
+    padding: 12px;
 
+    
     a{
-      display: block;
-      padding: 12px;
+      flex: 1;
+      display: flex;
+
+      text-align: center;
+
       
-      /* margin-right: 24px;
+      display: block;
+      padding: 3px;
+      
+      margin-right: 6px;
       &:last-child{
         margin-right: 0;
-      } */
+      }
       
+      font-size: 16px;
+      color: rgb(61, 61, 61) !important;
+      &:hover{
+        color: rgb(77, 167, 226) !important;
+      }
 
-      color: darkgray !important;
     }
 
     :global{
-      .ant-btn-icon-only{
-        color: darkgray !important;
+      a.active{
+        color: rgb(77, 167, 226) !important;
       }
     }
 

@@ -2,8 +2,12 @@ import Layout from 'components/Layout'
 
 export default () =>
   <Layout>
-      <div style={{textAlign: 'center', padding: 24}}>
-        <h2>hazırlanıyor...</h2>
-      </div>
+
+    <div style={{margin:24}}></div> 
+
+    <div className="horizontal">
+        <img src="/egitimlerimiz.jpg" style={{width: 'auto', height: '250px', objectFit: 'fill'}}/>
+    </div>
+
   </Layout>
 

@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import { useRouter } from 'next/router'
+
 import {Button} from 'antd'
 import styles from './index.module.scss'
 
@@ -12,6 +14,8 @@ import {
 
  
 export default (props) => {
+  const router = useRouter()
+  
   return (
     <div className={styles.wrapper}>
       <div className={styles.container}>
@@ -20,10 +24,18 @@ export default (props) => {
 
           <div style={{flex:1}}> </div>
                   
-          <Link href="https://www.facebook.com/serge.ozdemir.3?fref=ts"><Button type="link" icon={<FacebookOutlined/>}/></Link>
-          <Link href="#"><Button type="link" icon={<TwitterOutlined/>}/></Link>
-          <Link href="https://www.instagram.com/otizmgelisim/"><Button type="link" icon={<InstagramOutlined/>}/></Link>  
-          <Link href="https://www.youtube.com/results?search_query=emre+serge+özdemir"><Button type="link" icon={<YoutubeOutlined/>}/></Link>
+          <Link href="https://www.facebook.com/serge.ozdemir.3?fref=ts">
+            <a target="_blank"><FacebookOutlined style={{fontSize: 32}}/></a>
+          </Link>
+          <Link href="https://twitter.com/emreserge">
+            <a target="_blank"><TwitterOutlined style={{fontSize: 32}}/></a>
+          </Link>
+          <Link href="https://www.instagram.com/otizmgelisim/">
+            <a target="_blank"><InstagramOutlined style={{fontSize: 32}}/></a>
+          </Link>  
+          <Link href="https://www.youtube.com/results?search_query=emre+serge+özdemir">
+            <a target="_blank"><YoutubeOutlined style={{fontSize: 32}}/></a>
+          </Link>
 
 
       </div>

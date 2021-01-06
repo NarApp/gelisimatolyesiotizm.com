@@ -12,7 +12,7 @@
     justify-content: center;    
 
     width: 100%;
-    max-width: 800px;
+    max-width: 960px;
     margin: auto;
 
     padding: 24px;
@@ -21,19 +21,25 @@
       display: block;
       padding: 12px;
       
-      margin-right: 24px;
+      margin-right: 0;
       &:last-child{
         margin-right: 0;
       }
+
   
       /* border: 1px solid lightgray; */
 
-      color: darkgray !important;
+      color: rgb(61, 61, 61) !important;
+      &:hover{
+        color: rgb(77, 167, 226) !important;
+      }
+
     }
 
     :global{
       .ant-btn-icon-only{
         color: darkgray !important;
+        
       }
     }
 

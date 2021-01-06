@@ -1,20 +1,28 @@
-import {Descriptions} from 'antd'
+import {Descriptions, Card , List} from 'antd'
 import Layout from 'components/Layout'
 import HomeSlider from 'components/HomeSlider'
+
+import {
+  StarOutlined
+} from '@ant-design/icons'
+
+
 
 
 export default () =>
   <Layout>
     <HomeSlider />  
 
+    <div style={{margin:24}}></div> 
+
     <div className="horizontal">
       
-      <div style={{border: '1px solid lightgray', width: '50%'}}>
-        <img src="/kitap.jpg" style={{width: '100%', height: '100%', objectFit: 'fill'}}/>
+      <div style={{ width: '50%'}}>
+        <img src="/kitap.jpg" style={{width: 'auto', height: '250px', objectFit: 'fill'}}/>
       </div>
 
       <div style={{width: '50%'}}>
-        <Descriptions title="Kitap Satışı" bordered column={1} style={{marginBottom: 24}}>
+        <Descriptions title="Kitap Satışı" column={1} style={{marginBottom: 24}}>
           <Descriptions.Item label="Emine Elvan"><a href="tel:0554 566 4918">0(554) 566 4918</a></Descriptions.Item>
           <Descriptions.Item label="Oyun Terapi Market"><a href="tel:0553 720 0372">0(553) 720 0372</a></Descriptions.Item>
           <Descriptions.Item label="Satış Mağazaları">
@@ -25,9 +33,36 @@ export default () =>
       </div> 
     </div>
 
-    <div className="horizontal">
-      <div><img src="/slogan1.png" style={{width: '100%'}}/></div>
-      <div><img src="/slogan2.png" style={{width: '100%'}}/></div>
+
+    <div style={{margin:24}}></div> 
+
+
+    <div className="horizontal" style={{alignItems: 'start !important'}}>
+      
+      <div style={{ width: '50%'}}>
+        <List
+          dataSource={[
+            'Otizm eksiklik değil farkındalıktır.',
+            'Farkındalıkları birlikte farkedelim.',
+            'Doğru bir özel eğitim çocuğunuzun hayatını degiştir.',
+            'Çocuğun algısının kapalı olması beynin uyuyor olmasından kaynaklanır.',
+            'Uyuyan beyni etkileşim ve hareket uyandırır.'
+          ]}
+          renderItem={item => (<List.Item><StarOutlined /> {item}</List.Item>)}
+        />        
+      </div>
+
+      <div style={{width: '50%'}}>
+        <List
+          dataSource={[
+            'Her hafta canlı yayın ve soru cevap.',
+            'Soru cevap videolarımız için instagram hesabımızı takip edin.',
+          ]}
+          renderItem={item => (<List.Item><StarOutlined /> {item}</List.Item>)}
+        />    
+      </div> 
     </div>
+
+
   </Layout>
 
