@@ -15,20 +15,18 @@ export default () =>
         <h2 style={{margin: 0, fontSize:24, color: 'gray'}}>FARKINDALIKLARI,BİRLİKTE FARKEDELİM!</h2>
         </Card>
       </Col>
-      
-      <Col md={24}>
-        <Card title="OTİZM NEDİR?">
-        OTİZM; BÜYÜK ÇOĞUNLUKLA YAŞAMIN İLK 3 YILINDA ORTAYA ÇIKAN NÖROLOJİK TEMELLİ GENETİK BİR FARKLILIKTIR.OTİZMİN TEMEL PROBLEMİ ETKİLEŞİM VE ETKİLEŞİM TEMELLİ DAVRANIŞLARDAKİ FARKLILIKLARDIR.OTİZM ÖZÜNDE BİR SOSYALİZASYON PROBLEMİDİR.
-        </Card>
-      </Col>
 
-      <Col md={12}>
+      <Col md={8}>
         <Card>
         <img src="/otizmnedir.png" style={{width: '100%'}}/>
         </Card>
       </Col>
-      <Col md={12}>
-        <Card title="OTİZM İŞARETLERİ">
+      <Col md={16}>
+        <Card title="OTİZM NEDİR?">
+          OTİZM; BÜYÜK ÇOĞUNLUKLA YAŞAMIN İLK 3 YILINDA ORTAYA ÇIKAN NÖROLOJİK TEMELLİ GENETİK BİR FARKLILIKTIR.OTİZMİN TEMEL PROBLEMİ ETKİLEŞİM VE ETKİLEŞİM TEMELLİ DAVRANIŞLARDAKİ FARKLILIKLARDIR.OTİZM ÖZÜNDE BİR SOSYALİZASYON PROBLEMİDİR.
+        </Card>
+
+        <Card title="OTİZM İŞARETLERİ" style={{marginTop: 24}}>
           <p>Otizmde temel farklılık etkileşim beceilerindeki yetersizlik ve farklılıklardır.Takıntılı davranış ve hareketler otizmli çocuklarda eşlik eden problemlerden olsa da temel yetersizliklerden  değildir.Aşağıda maddeler halinde sıralanan davranışlar otizmden şüphelenen ailelerin temel yol göstericileridir.</p>
           <ol>
             <li>GÖZ TEMASINDA YETERSİZLİK</li>

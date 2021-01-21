@@ -10,11 +10,10 @@ export default () =>
       <Row gutter={[24,24]}>
       <Col md={12} style={{width: '100%'}}>
         <Card title="Serge Egtm Otizm Gelişim Atölyesi">
-        Adres: 6782/3 Sk. No:15 Aydınlıkevler Mh. <br />
-              Çiğli / İZMİR (Kâtip Çelebi Diş Hastahanesi Üst Yolu)  <br />
-
-              <a href="tel:0553 299 0056">0212 432 3260</a>
- 
+          Adres: 6782/3 Sk. No:15 Aydınlıkevler Mh. <br />
+          Çiğli / İZMİR (Kâtip Çelebi Diş Hastahanesi Üst Yolu)  <br />
+          <a href="mailto:info@gelisimatolyesiotizm.com">info@gelisimatolyesiotizm.com</a>
+          <a href="tel:0553 299 0056">0553 299 0056</a>
         </Card>
       </Col>
       <Col md={12} style={{width: '100%'}}>
@@ -24,10 +23,6 @@ export default () =>
       </Col>
 
     </Row>
-
-
-
-
 
     </div>
   </Layout>
