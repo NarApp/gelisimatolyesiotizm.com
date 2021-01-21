@@ -1,4 +1,4 @@
-import { Descriptions, Row, Col, Card } from 'antd';
+import { Descriptions, Row, Col, Card, Space } from 'antd';
 import Layout from 'components/Layout'
 
 
@@ -12,8 +12,10 @@ export default () =>
         <Card title="Serge Egtm Otizm Gelişim Atölyesi">
           Adres: 6782/3 Sk. No:15 Aydınlıkevler Mh. <br />
           Çiğli / İZMİR (Kâtip Çelebi Diş Hastahanesi Üst Yolu)  <br />
-          <a href="mailto:info@gelisimatolyesiotizm.com">info@gelisimatolyesiotizm.com</a>
-          <a href="tel:0553 299 0056">0553 299 0056</a>
+          <Space direction="vertical" size={0} style={{marginTop: 6}}>
+            <a href="mailto:info@gelisimatolyesiotizm.com">info@gelisimatolyesiotizm.com</a>
+            <a href="tel:0553 299 0056">0553 299 0056</a>
+          </Space>
         </Card>
       </Col>
       <Col md={12} style={{width: '100%'}}>

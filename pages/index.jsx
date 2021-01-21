@@ -67,7 +67,7 @@ export default () =>
         <Card title="Her hafta canlı yayın ve soru cevap">
           <div>Her hafta canlı yayın ve soru cevap.</div>
           <div>Soru cevap videolarımız için instagram hesabımızı takip edin.</div>
-          <p><Typography.Link type="link" href='/otizm-nedir'>devamı {'>'}</Typography.Link></p>
+          <p><Typography.Link type="link" href='https://www.instagram.com/otizmgelisim/'>devamı {'>'}</Typography.Link></p>
           <br/>
           <br/>
           <br/>
