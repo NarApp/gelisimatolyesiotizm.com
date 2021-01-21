@@ -24,19 +24,13 @@ export default (props) =>  {
   return (
 <div className={styles.wrapper}>
   <div className={styles.container}>
-    {/* <div className={styles.head}>
-      <h2>Vitrindekiler</h2>
-      <Link href="/kategoriler"><a>devamı <RightOutlined/></a></Link>
-    </div> */}
-
       <Carousel
-        dots={false}
-        
-        speed={5000}
-        autoplaySpeed={1000}
-        autoplay
-        variableWidth
-        centerMode
+        dots
+        draggable
+        //speed={5000}
+        //autoplaySpeed={1000}
+        //autoplay
+        //variableWidth
       >
         {data?.map((x,y)=>
           <div key={y} className={styles.slideNode}>
@@ -44,7 +38,6 @@ export default (props) =>  {
           </div>
         )}
       </Carousel>
-
   </div>
 </div>  
   )

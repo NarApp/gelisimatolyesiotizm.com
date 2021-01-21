@@ -13,6 +13,9 @@ export default (props) =>  {
     
     {props.children}
 
+
+    <div style={{textAlign: 'center', padding: 24, borderTop: '1px dashed lightgray'}}>Her hakkı saklıdır.</div>
+
   </div>
 </div>  
   )
