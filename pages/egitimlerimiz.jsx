@@ -3,10 +3,8 @@ import Layout from 'components/Layout'
 export default () =>
   <Layout>
 
-    <div style={{margin:24}}></div> 
-
     <div className="horizontal">
-        <img src="/egitimlerimiz.jpg" style={{width: 'auto', height: '250px', objectFit: 'fill'}}/>
+        <img src="/egitimlerimiz.jpg" style={{width: '100%'}}/>
     </div>
 
   </Layout>

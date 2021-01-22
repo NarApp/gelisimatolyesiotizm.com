@@ -11,7 +11,7 @@ export default (props) =>  {
   <div className={styles.container}>
 
     <Header />  
-    <Menu />  
+    {/* <Menu />   */}
     
     {props.children}
 

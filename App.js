@@ -21,11 +21,12 @@ export default ({Layout, pageProps, children})=> {
   return (        
         <ThemeProvider theme={theme}>
           <Head>
-            <title>SERGE EGTM</title>
+            <title>GELİŞİM ATÖLYESİ -  OTİZM - ONLINE DEĞERLENDİRME-NÖROPLASTİSİTE</title>
+            <meta name="description" content="GELİŞİM ATÖLYESİ - ÖZEL EĞİTİM - OTİZM - ONLINE DEĞERLENDİRME-NÖROPLASTİSİTE" />
+            <meta name="keywords" content="GELİŞİM ATÖLYESİ , ÖZEL EĞİTİM , OTİZM , ONLINE DEĞERLENDİRME,NÖROPLASTİSİTE,Seger Özdemir" />            
 
             {/* {ENV.ANALYTICS_ID} */}
-            <meta name="robots" content="noindex, nofollow" />
-            <meta httpEquiv="content-language" content={({ tr: 'tr-TR', en: 'en-US', ru: 'ru-RU' })[locale]}/>
+            
             {/* <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png" />
             <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png" />
             <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png" />
