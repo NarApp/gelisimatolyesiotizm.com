@@ -19,7 +19,7 @@ export default (props) =>  {
     <div style={{textAlign: 'center', padding: 24, borderTop: '1px dashed lightgray'}}>
       <Space>
       <span>© Serge Egtm Otizm Gelişim Atölyesi Tüm Hakları Saklıdır.</span>
-      <a href="mailto:info@gelisimatolyesiotizm.com">info@gelisimatolyesiotizm.com</a>  
+      <a href="mailto:sergioaycel@hotmail.com">sergioaycel@hotmail.com</a>  
       </Space>  
     </div>
 

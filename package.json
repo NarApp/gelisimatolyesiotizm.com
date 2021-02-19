@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export -o docs"
+    "export": "next build && next export -o docs",
+    "push": "cp ./CNAME ./docs && cp ./.nojekyll ./docs && git commit -am \"-\" && git push"
   },
   "dependencies": {
     "@ant-design/icons": "^4.3.0",

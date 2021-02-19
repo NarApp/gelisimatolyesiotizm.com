@@ -13,7 +13,7 @@ export default () =>
           Adres: 6782/3 Sk. No:15 Aydınlıkevler Mh. <br />
           Çiğli / İZMİR (Kâtip Çelebi Diş Hastahanesi Üst Yolu)  <br />
           <Space direction="vertical" size={0} style={{marginTop: 6}}>
-            <a href="mailto:info@gelisimatolyesiotizm.com">info@gelisimatolyesiotizm.com</a>
+            <a href="mailto:sergioaycel@hotmail.com">sergioaycel@hotmail.com</a>
             <a href="tel:0553 299 0056">0553 299 0056</a>
           </Space>
         </Card>
